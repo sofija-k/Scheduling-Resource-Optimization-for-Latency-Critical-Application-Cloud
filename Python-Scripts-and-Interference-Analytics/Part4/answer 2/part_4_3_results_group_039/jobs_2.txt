@@ -1,0 +1,55 @@
+2023-05-23T23:29:32.147046 start scheduler
+2023-05-23T23:29:32.152987 start memcached [0,1] 2
+2023-05-23T23:29:32.153003 update_cores memcached [0,1]
+2023-05-23T23:29:32.622087 start ferret [2,3] 3
+2023-05-23T23:29:32.663451 update_cores ferret [2,3]
+2023-05-23T23:29:32.929349 start dedup [2] 1
+2023-05-23T23:30:26.206654 end dedup
+2023-05-23T23:30:26.667101 start radix [2] 1
+2023-05-23T23:30:28.958969 update_cores memcached [0]
+2023-05-23T23:30:29.022854 update_cores ferret [1,2,3]
+2023-05-23T23:30:35.135454 update_cores memcached [0,1]
+2023-05-23T23:30:35.284722 update_cores ferret [2,3]
+2023-05-23T23:30:47.036841 update_cores memcached [0]
+2023-05-23T23:30:47.101988 update_cores ferret [1,2,3]
+2023-05-23T23:30:55.512348 update_cores memcached [0,1]
+2023-05-23T23:30:55.598895 update_cores ferret [2,3]
+2023-05-23T23:31:35.010955 end radix
+2023-05-23T23:31:35.369315 start blackscholes [2] 2
+2023-05-23T23:31:46.852993 update_cores memcached [0]
+2023-05-23T23:31:46.930926 update_cores ferret [1,2,3]
+2023-05-23T23:31:55.094457 update_cores memcached [0,1]
+2023-05-23T23:31:55.167657 update_cores ferret [2,3]
+2023-05-23T23:33:55.611026 end blackscholes
+2023-05-23T23:33:56.282168 start vips [2] 2
+2023-05-23T23:35:42.753276 end ferret
+2023-05-23T23:35:43.152375 start canneal [2,3] 4
+2023-05-23T23:35:43.209241 update_cores canneal [2,3]
+2023-05-23T23:35:46.171354 end vips
+2023-05-23T23:35:46.794473 start freqmine [2,3] 4
+2023-05-23T23:35:46.876132 update_cores freqmine [2,3]
+2023-05-23T23:36:48.523958 update_cores memcached [0]
+2023-05-23T23:36:48.580295 update_cores canneal [1,2,3]
+2023-05-23T23:36:48.605170 update_cores freqmine [1,2,3]
+2023-05-23T23:36:54.975842 update_cores memcached [0,1]
+2023-05-23T23:36:55.100618 update_cores canneal [2,3]
+2023-05-23T23:36:55.160682 update_cores freqmine [2,3]
+2023-05-23T23:38:17.022184 update_cores memcached [0]
+2023-05-23T23:38:17.160337 update_cores canneal [1,2,3]
+2023-05-23T23:38:17.212395 update_cores freqmine [1,2,3]
+2023-05-23T23:38:25.126183 update_cores memcached [0,1]
+2023-05-23T23:38:25.221784 update_cores canneal [2,3]
+2023-05-23T23:38:25.292506 update_cores freqmine [2,3]
+2023-05-23T23:40:37.009026 update_cores memcached [0]
+2023-05-23T23:40:37.066581 update_cores canneal [1,2,3]
+2023-05-23T23:40:37.138762 update_cores freqmine [1,2,3]
+2023-05-23T23:40:45.045380 update_cores memcached [0,1]
+2023-05-23T23:40:45.134292 update_cores canneal [2,3]
+2023-05-23T23:40:45.244807 update_cores freqmine [2,3]
+2023-05-23T23:41:31.622341 end canneal
+2023-05-23T23:43:16.868315 update_cores memcached [0]
+2023-05-23T23:43:16.923759 update_cores freqmine [1,2,3]
+2023-05-23T23:43:25.023972 update_cores memcached [0,1]
+2023-05-23T23:43:25.121110 update_cores freqmine [2,3]
+2023-05-23T23:44:30.796935 end freqmine
+2023-05-23T23:44:30.835843 end scheduler

@@ -1,0 +1,77 @@
+2023-05-24T14:25:52.646425 start scheduler
+2023-05-24T14:25:52.653558 start memcached [0,1] 2
+2023-05-24T14:25:52.653570 update_cores memcached [0,1]
+2023-05-24T14:25:53.023387 start ferret [2,3] 3
+2023-05-24T14:25:53.073032 update_cores ferret [2,3]
+2023-05-24T14:25:53.305284 start dedup [2] 1
+2023-05-24T14:25:55.598027 update_cores memcached [0]
+2023-05-24T14:25:55.653069 update_cores ferret [1,2,3]
+2023-05-24T14:26:02.531887 update_cores memcached [0,1]
+2023-05-24T14:26:02.609566 update_cores ferret [2,3]
+2023-05-24T14:26:43.777768 end dedup
+2023-05-24T14:26:44.443651 start radix [2] 1
+2023-05-24T14:26:54.386471 update_cores memcached [0]
+2023-05-24T14:26:54.440411 update_cores ferret [1,2,3]
+2023-05-24T14:27:02.585337 update_cores memcached [0,1]
+2023-05-24T14:27:02.657063 update_cores ferret [2,3]
+2023-05-24T14:27:14.384449 update_cores memcached [0]
+2023-05-24T14:27:14.440392 update_cores ferret [1,2,3]
+2023-05-24T14:27:30.991356 update_cores memcached [0,1]
+2023-05-24T14:27:31.057740 update_cores ferret [2,3]
+2023-05-24T14:27:49.218622 end radix
+2023-05-24T14:27:49.579957 start blackscholes [2] 2
+2023-05-24T14:28:04.368313 update_cores memcached [0]
+2023-05-24T14:28:04.448282 update_cores ferret [1,2,3]
+2023-05-24T14:28:23.053275 update_cores memcached [0,1]
+2023-05-24T14:28:23.121538 update_cores ferret [2,3]
+2023-05-24T14:28:44.268750 update_cores memcached [0]
+2023-05-24T14:28:44.321498 update_cores ferret [1,2,3]
+2023-05-24T14:28:52.468320 update_cores memcached [0,1]
+2023-05-24T14:28:52.540754 update_cores ferret [2,3]
+2023-05-24T14:29:50.482227 end blackscholes
+2023-05-24T14:29:50.920060 start vips [2] 2
+2023-05-24T14:30:08.034556 end ferret
+2023-05-24T14:30:08.354208 start canneal [2,3] 4
+2023-05-24T14:30:08.389153 update_cores canneal [2,3]
+2023-05-24T14:30:10.682873 update_cores memcached [0]
+2023-05-24T14:30:10.741444 update_cores canneal [1,2,3]
+2023-05-24T14:30:22.465529 update_cores memcached [0,1]
+2023-05-24T14:30:22.557066 update_cores canneal [2,3]
+2023-05-24T14:31:27.814119 end vips
+2023-05-24T14:31:28.366317 start freqmine [2,3] 4
+2023-05-24T14:31:28.413737 update_cores freqmine [2,3]
+2023-05-24T14:32:24.361400 update_cores memcached [0]
+2023-05-24T14:32:24.417316 update_cores canneal [1,2,3]
+2023-05-24T14:32:24.484226 update_cores freqmine [1,2,3]
+2023-05-24T14:32:32.638558 update_cores memcached [0,1]
+2023-05-24T14:32:32.722240 update_cores canneal [2,3]
+2023-05-24T14:32:32.809115 update_cores freqmine [2,3]
+2023-05-24T14:33:14.456888 update_cores memcached [0]
+2023-05-24T14:33:14.572165 update_cores canneal [1,2,3]
+2023-05-24T14:33:14.614230 update_cores freqmine [1,2,3]
+2023-05-24T14:33:22.509248 update_cores memcached [0,1]
+2023-05-24T14:33:22.586583 update_cores canneal [2,3]
+2023-05-24T14:33:22.661595 update_cores freqmine [2,3]
+2023-05-24T14:34:03.842660 end canneal
+2023-05-24T14:34:24.389754 update_cores memcached [0]
+2023-05-24T14:34:24.437109 update_cores freqmine [1,2,3]
+2023-05-24T14:34:32.530007 update_cores memcached [0,1]
+2023-05-24T14:34:32.601856 update_cores freqmine [2,3]
+2023-05-24T14:34:44.242386 update_cores memcached [0]
+2023-05-24T14:34:44.300176 update_cores freqmine [1,2,3]
+2023-05-24T14:34:52.899312 update_cores memcached [0,1]
+2023-05-24T14:34:52.981584 update_cores freqmine [2,3]
+2023-05-24T14:35:03.096005 update_cores memcached [0]
+2023-05-24T14:35:03.149005 update_cores freqmine [1,2,3]
+2023-05-24T14:35:12.506568 update_cores memcached [0,1]
+2023-05-24T14:35:12.618331 update_cores freqmine [2,3]
+2023-05-24T14:37:04.283925 update_cores memcached [0]
+2023-05-24T14:37:04.348789 update_cores freqmine [1,2,3]
+2023-05-24T14:37:12.444505 update_cores memcached [0,1]
+2023-05-24T14:37:12.569470 update_cores freqmine [2,3]
+2023-05-24T14:37:54.335929 update_cores memcached [0]
+2023-05-24T14:37:54.396462 update_cores freqmine [1,2,3]
+2023-05-24T14:38:02.487982 update_cores memcached [0,1]
+2023-05-24T14:38:02.629828 update_cores freqmine [2,3]
+2023-05-24T14:38:43.393509 end freqmine
+2023-05-24T14:38:43.432747 end scheduler
